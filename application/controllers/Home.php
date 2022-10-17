@@ -14,10 +14,16 @@ class Home extends CI_Controller
     {
         return $this->load->view('v_tampil');
     }
-
+    
     public function coba()
     {
         return $this->load->view('test');
+        
+    }
+
+    public function testing()
+    {
+        echo 'testing';
         
     }
 }
